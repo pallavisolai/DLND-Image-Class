@@ -1,8 +1,28 @@
-# DLND-Image-Class
-Image Classifier using CIFAR-10 , Part of Udacity Deep Learning Nanodegree
-## How the project was done 
+# DLND-Image-Classification
+Image Classifier using CIFAR-10 , Part of Udacity Deep Learning Nanodegree.
 
-Used the CIFAR 10 Dataset on Floydhub to classify the image's , The information and the code can be found before each and every cell in the ipynb file. 
+In this project, images have been classified from the CIFAR-10 dataset. The dataset consists of airplanes, dogs, cats, and other objects. Images have been preprocessed, then a convolutional neural network has been trained on all the samples. The images have been normalized and the labels have been one-hot encoded. Convolutional, max pooling, dropout, and fully connected layers have been used. At the end the neural network's predictions on the sample images are displayed.
+
+Each cell contains a description of the code written.
+
+## Dataset
+
+CIFAR 10 Dataset has been used on _Floydhub_ to classify the image.
+
+The dataset is broken into batches to prevent the machine from running out of memory. The CIFAR-10 dataset consists of 5 batches, named data_batch_1, data_batch_2, etc.. Each batch contains the labels and images that are one of the following:
+
+- airplane
+- automobile
+- bird
+- cat
+- deer
+- dog
+- frog
+- horse
+- ship
+- truck
+
+Link to the CIFAR-10 [website](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## (Optional) Running the Udacity Deep Learning Foundations image classification project on floydhub.com
 
@@ -54,3 +74,5 @@ Alternatively, If you already stoped the experiment, you can still download the 
 (where ID is the "RUN ID" displayed in the terminal when you run the project; if you lost it you can also find it in the ["Experiments" section on floyd.com](https://www.floydhub.com/experiments))
     
 Just run the command above, download `dlnd_image_classification.ipynb` and replace your local version with the newly downloaded one.
+
+
